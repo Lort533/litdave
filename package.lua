@@ -1,6 +1,6 @@
 return {
 	name = "Lort533/litdave",
-	version = "0.0.1",
+	version = "0.0.2",
 	description = "Luvit FFI bindings for Discord's libdave",
 	tags = {"discord", "dave", "libdave", "e2ee"},
 	license = "MIT",
@@ -8,7 +8,7 @@ return {
 	homepage = "https://github.com/Lort533/litdave",
 	files = {
 		"*.lua",
-		"libs/*",
+		"libs/**",
 		"licenses/*",
 		"$OS-*/*" -- $ARCH skips architectures other than the currently running when publishing?
 	}
