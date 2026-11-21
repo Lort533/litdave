@@ -10,6 +10,6 @@ return {
 		"*.lua",
 		"libs/*",
 		"licenses/*",
-		"$OS-$ARCH/*"
+		"$OS-*/*" -- $ARCH skips architectures other than the currently running when publishing?
 	}
 }
